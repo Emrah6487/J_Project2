@@ -1,0 +1,94 @@
+main{
+    display: flex;
+}
+
+body::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    background-image: url("/pexels-tirachard-kumtanom-733857.jpg"); /*Put your image url*/
+    background-size: cover;
+    background-position: center;
+    opacity: 0.4; /*Value from 0.0 to 1.0*/
+}
+.card .card-header{
+    background-color: #AAC4FF;
+    color:white;
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+
+
+.dropdown-toggle::after {
+    display: none;;
+}
+
+.task {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.task label.checked {
+    text-decoration: line-through;
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.filters span.active {
+    color: #3C87FF;
+}
+
+.filters span {
+    margin-right: 5px;
+    font-size: 15px;
+    column-rule-color: #444444;
+    cursor: pointer;
+}
+
+.cssload-thecube{
+    margin-right: 200px;
+   
+}
+
+.time-frame {
+    background-color: #027bb5;
+    color: #fff;
+    width: auto;
+    min-width: 160px;
+    font-family: Arial;
+   margin-top: 25px;
+    margin-right: 150px;
+    display:table;
+    padding:10px 10px;
+   
+    
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.time-frame > div {
+    width: 100%;
+    text-align: center;
+}
+
+#tarih-bolumu {
+    font-size: 18px;
+    color:#a9fff7;
+}
+#saat-bolumu {
+    font-size: 32px;
+    line-height: 30px;
+    margin-top:5px;
+}
